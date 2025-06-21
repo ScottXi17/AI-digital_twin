@@ -1,0 +1,92 @@
+body {
+  font-family: "Segoe UI", "微软雅黑", sans-serif;
+  background: linear-gradient(to right, #e8f5e9, #e3f2fd);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+.language-toggle {
+  margin-bottom: 20px;
+}
+
+.language-toggle button {
+  font-size: 16px;
+  margin: 0 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid #4fc3f7;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.language-toggle button:hover {
+  background-color: #e1f5fe;
+}
+
+.chat-container {
+  width: 500px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-box {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  height: 350px;
+  font-size: 18px;
+}
+
+.message {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.user {
+  text-align: right;
+  color: #333;
+}
+
+.ai {
+  text-align: left;
+  color: #388e3c;
+}
+
+.input-area {
+  display: flex;
+  border-top: 1px solid #ccc;
+  padding: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 12px;
+  font-size: 18px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+button#send-btn {
+  padding: 12px 20px;
+  font-size: 18px;
+  background-color: #4fc3f7;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button#send-btn:hover {
+  background-color: #29b6f6;
+}
