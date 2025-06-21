@@ -1,2 +1,2 @@
-# AI-wife
+# AI-digital_twin
 There is a digital twin and emotion communication project. You can talk with AI to release your stress
