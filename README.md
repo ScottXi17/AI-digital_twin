@@ -1,2 +1,2 @@
 # AI-digital_twin
-There is a digital twin and emotion communication project. You can talk with AI to release your stress
+This is digital twins, an emotional communication project. You can talk with emotional AI to release your stress
